@@ -1,14 +1,9 @@
 ﻿@using Extensions;
 @{ 
-    string x = "1234567890";
-    var y = x.LEFT();
-    var z = x.LEFT(4);
-
+   var x = new Generics.GenericMethods().ReturnT<List<string>>();
 }
 
 <div class="jumbotron">
-    @y
-    <br />  
-    @z
+      @x
 </div>
 

@@ -18,10 +18,21 @@ namespace Extensions
             {
                 return -1;
             }            
-        }
+        }       
+        public static int ToInt<T>(this T val)
+        {
+            try
+            {
+                return Convert.ToInt32(val);
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
+        }        
         public static string LEFT(this string val, int digits = 1)
         {
-            return val.Substring(0, digits);            
+            return val.Substring(0, digits);
         }
     }
 }

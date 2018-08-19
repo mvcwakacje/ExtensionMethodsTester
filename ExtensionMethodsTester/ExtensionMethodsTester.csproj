@@ -215,6 +215,10 @@
       <Project>{acfa3d2c-5902-4977-8251-32c220d1bd93}</Project>
       <Name>Extensions</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Generics\Generics.csproj">
+      <Project>{1d03944c-12c8-4d91-ae24-d98de9354387}</Project>
+      <Name>Generics</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
